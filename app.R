@@ -1,7 +1,10 @@
 # source("https://bioconductor.org/biocLite.R")
+# first time these bioconductor packages have to be installed with biocLite("phyloseq")
 library(phyloseq)
 library(vegan)
 library(DESeq2)
+
+# packages from cran have to be installed with e.g. install.packages("ggplot2")
 library(ggplot2)
 library(shiny)
 library(lubridate)
