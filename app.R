@@ -1019,8 +1019,9 @@ ui <- fluidPage(
                           wellPanel(
                             tags$h4("Purpose of this tab:"),
                             
-                            tags$h5("To compare samples in which the taxon is present to those in which it was absent. Since only selected taxa is compared the analasis can only be made on all counts")
+                            tags$h5("To compare samples in which the taxon is present to those in which it was absent. Since only selected taxa is compared the analysis can only be made on all counts"),
                             
+                            tags$h5("NB: The taxa index can be found in the taxa table")
                           ),
                           
                           wellPanel(
@@ -1060,7 +1061,7 @@ ui <- fluidPage(
                             
                             actionButton(inputId = "taxaBP", label = "Perform box plot"),
                             
-                            tags$h5("Be patient the plot can take i while to generate")
+                            tags$h5("Be patient the plot can take a while to generate on a high taxonomic level")
                           )
                           
                           
